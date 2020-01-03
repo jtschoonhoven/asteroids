@@ -1,0 +1,19 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <link>
+        <meta charset="utf-8">
+        <title>Asteroid Simulator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="earth"></div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="helpers.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        loadAsteroids();
+        $('body').append($('<button class="btn" onClick="loadAsteroids()">Load More Asteroids</button>'));
+    </script>
+</html>

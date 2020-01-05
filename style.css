@@ -1,6 +1,7 @@
 body {
     background-color: black;
     overflow: hidden;
+    font-family: system-ui;
 }
 
 /*
@@ -93,3 +94,39 @@ https://codepen.io/ogab/pen/rjVZQj
     75% { background: #0b5a42 }
     100% { background: #333333; }
 }
+
+.container-alert {
+    box-sizing: border-box;
+    width: 95%;
+  }
+
+  .container-alert .alert {
+    margin-bottom: 10px;
+  }
+
+  .container-alert .alert:last-child {
+    margin-bottom: 0;
+  }
+
+  .alert {
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    border-left: 8px solid #bababa;
+    background: #ededed;
+    color: #a1a1a1;
+    border-radius: 4px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    border-color: #ff4757;
+    background: #ffe0e3;
+    color: #ff4757;
+    text-transform: uppercase;
+    font-weight: 700;
+  }

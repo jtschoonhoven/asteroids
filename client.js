@@ -44,6 +44,7 @@ class NasaApiClient {
                 if (callback) {
                     callback(error);
                 }
+                throw error;
             });
     }
 
